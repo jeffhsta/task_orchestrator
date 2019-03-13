@@ -1,6 +1,5 @@
 from docker import DockerClient
 
-
 DOCKER_SOCKET = 'http+unix://var/run/docker.sock'
 AVAILABLE_TASKS = ['test']
 
